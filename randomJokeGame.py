@@ -19,3 +19,15 @@ print("Random joke game")
 print("-" * 30)
 print(random_joke)
 print("-" * 30)
+
+list = [1, 2, 4, 8, 9, 8, 10, 3,5, 5, 6]
+
+list.append(11)
+list.extend([12, 13, 14, 15])
+list.pop(8)
+list.sort()
+
+for number in list:
+    print(number)
+
+
