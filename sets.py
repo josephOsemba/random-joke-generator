@@ -8,7 +8,7 @@ set2 = set()
 message = "Enter number of elements for set1 (maximum is 5): "
 print(message)
 n = 1
-while n<=3:
+while n<=5:
     element = int(input("Enter element: "))
     set1.add(element)
     n += 1
@@ -16,7 +16,7 @@ while n<=3:
 message = "Enter number of elements for set2 (maximum is 5): "
 print(message)
 
-n = 3
+n = 5
 
 for i in range(n):
     element = int(input("Enter element: "))

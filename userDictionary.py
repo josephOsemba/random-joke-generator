@@ -14,7 +14,7 @@ person["name"] = name
 person["age"] = age
 person["color"] = color
 
-print("-" * 30)
+print(f"-" * 30)
 for i in person:
     print(i + ": " + person[i])
 print("-" * 30)
