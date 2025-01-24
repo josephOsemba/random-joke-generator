@@ -5,17 +5,18 @@ set1 = set()
 
 set2 = set()
 
-message = int(input("Enter number of elements for set1 (maximum is 5): "))
+message = "Enter number of elements for set1 (maximum is 5): "
 print(message)
-n = 5
-for i in range(n):
+n = 1
+while n<=3:
     element = int(input("Enter element: "))
     set1.add(element)
+    n += 1
 
-message = int(input("Enter number of elements for set2 (maximum is 5): "))
+message = "Enter number of elements for set2 (maximum is 5): "
 print(message)
 
-n = 5
+n = 3
 
 for i in range(n):
     element = int(input("Enter element: "))
